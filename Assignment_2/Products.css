@@ -1,0 +1,241 @@
+.image-1-icon4 {
+  height: 110px;
+  width: 116px;
+  position: relative;
+  object-fit: cover;
+  z-index: 2;
+}
+.navbarcontainer,
+.urban-eco-text-item {
+  background-color: var(--color-darkolivegreen);
+}
+.urban-eco-text-item {
+  height: 82px;
+  width: 1330px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.navbarcontainer {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+.urban-ecology4 {
+  margin: 0;
+  width: 532px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  white-space: pre-wrap;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  flex-shrink: 0;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding-right: var(--padding-xl);
+  z-index: 2;
+}
+.urban-eco-text-wrapper,
+.urban-eco-text1 {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.urban-eco-text1 {
+  align-self: stretch;
+  background-color: var(--color-darkolivegreen);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-xl) 0;
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-16xl);
+  color: var(--color-forestgreen-100);
+  font-family: var(--font-inter);
+}
+.urban-eco-text-wrapper {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-7xs);
+}
+.image-1-parent1,
+.products-inner {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.image-1-parent1 {
+  margin-top: -11px;
+  flex: 1;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+}
+.products-inner {
+  align-self: stretch;
+  height: 99px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+}
+.products2 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.product-text {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs);
+}
+.introducing-our-urban {
+  position: relative;
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+}
+.green-roofs-text,
+.product-list {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.product-list {
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 40px 0;
+}
+.green-roofs-text {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 36px;
+  box-sizing: border-box;
+}
+.green-roof-systems {
+  margin-bottom: 0;
+}
+.green-roof-systems-transform {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-14xl);
+}
+.blank-line6 {
+  margin: 0;
+}
+.rainwater-harvesting-systems1 {
+  margin-bottom: 0;
+}
+.rainwater-harvesting-systems {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-14xl);
+}
+.blank-line7 {
+  margin: 0;
+}
+.native-plant-seed {
+  margin-bottom: 0;
+}
+.native-plant-seed-kits-bring {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-14xl);
+}
+.blank-line8,
+.blank-line9,
+.essential-shelter-and,
+.urban-wildlife-habitat,
+.wildlife-habitat-structures {
+  margin: 0;
+}
+.educational-resources-empower1 {
+  margin-bottom: 0;
+}
+.educational-resources-empower {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-14xl);
+}
+.green-roof-systems-container {
+  width: 1328px;
+  height: 540px;
+  position: relative;
+  font-size: var(--font-size-6xl);
+  display: inline-block;
+  color: var(--color-black);
+  flex-shrink: 0;
+}
+.intro-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 19px 0;
+  max-width: 100%;
+}
+.intro-container-wrapper,
+.products1 {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.intro-container-wrapper {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-13xl) 0 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-18xl);
+  color: var(--color-forestgreen-100);
+  font-family: var(--font-inter);
+}
+.products1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-darkgreen);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 236px;
+  gap: 15px 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .products2 {
+    font-size: var(--font-size-11xl);
+  }
+  .product-list {
+    gap: 40px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .products2 {
+    font-size: var(--font-size-3xl);
+  }
+  .green-roof-systems-container,
+  .introducing-our-urban {
+    font-size: var(--font-size-xl);
+  }
+}

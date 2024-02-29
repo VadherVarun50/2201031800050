@@ -1,0 +1,507 @@
+.image-1-icon1 {
+  height: 110px;
+  width: 116px;
+  position: relative;
+  object-fit: cover;
+  z-index: 2;
+}
+.label-text-child,
+.urban-ecology-env {
+  background-color: var(--color-darkolivegreen);
+}
+.label-text-child {
+  height: 82px;
+  width: 1330px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.urban-ecology-env {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+.urban-ecology1 {
+  width: 532px;
+  position: relative;
+  font-weight: 800;
+  white-space: pre-wrap;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  flex-shrink: 0;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding-right: var(--padding-xl);
+  z-index: 2;
+}
+.label-text {
+  align-self: stretch;
+  background-color: var(--color-darkolivegreen);
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0;
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-16xl);
+  color: var(--color-forestgreen-100);
+  font-family: var(--font-inter);
+}
+.f-r-a-m-e-a,
+.f-r-a-m-e-a-wrapper,
+.form-input,
+.label-text {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.form-input {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-7xs);
+}
+.f-r-a-m-e-a,
+.f-r-a-m-e-a-wrapper {
+  flex-direction: row;
+  padding: 0;
+}
+.f-r-a-m-e-a {
+  margin-top: -11px;
+  flex: 1;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+}
+.f-r-a-m-e-a-wrapper {
+  align-self: stretch;
+  height: 99px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+}
+.sign-up-page {
+  margin: 0;
+  width: 349px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.sign-up-page-text {
+  width: 542px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-9xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: 50px;
+}
+.first-name- {
+  height: 77px;
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+}
+.password-label {
+  border: 1px solid var(--color-black);
+  outline: 0;
+  background-color: var(--color-gainsboro-100);
+  height: 44px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  min-width: 188px;
+}
+.email-field-label {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 17px;
+}
+.last-name- {
+  position: relative;
+  text-transform: capitalize;
+}
+.phone-rectangle {
+  border: 1px solid var(--color-black);
+  outline: 0;
+  background-color: var(--color-gainsboro-100);
+  height: 44px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  min-width: 188px;
+}
+.email-id-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0 25px;
+}
+.phoneno- {
+  position: relative;
+  text-transform: capitalize;
+}
+.first-name-frame-child {
+  border: 0;
+  outline: 0;
+  background-color: var(--color-gainsboro-100);
+  height: 44px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-3xs);
+  min-width: 188px;
+}
+.first-name-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0 41px;
+}
+.lastname-input,
+.phonenumber-input {
+  width: 526px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.lastname-input {
+  width: 568px;
+  flex-direction: row;
+  text-align: center;
+  color: var(--color-black);
+  font-family: var(--font-inknut-antiqua);
+}
+.email-id- {
+  position: relative;
+  text-transform: capitalize;
+}
+.sign-in-heading {
+  border: 0;
+  outline: 0;
+  background-color: var(--color-gainsboro-100);
+  height: 44px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-3xs);
+  min-width: 188px;
+}
+.sign-up-button {
+  width: 508px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 44px;
+  max-width: 100%;
+}
+.password- {
+  position: relative;
+  text-transform: capitalize;
+}
+.rectangle-input {
+  border: 0;
+  outline: 0;
+  background-color: var(--color-gainsboro-100);
+  height: 44px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-3xs);
+  min-width: 188px;
+}
+.password-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0 44px;
+}
+.already-have-account-text {
+  width: 526px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 8px 0;
+  max-width: 100%;
+}
+.sign-up-confirmation {
+  width: 826px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.confirm-password- {
+  position: relative;
+  text-transform: capitalize;
+  white-space: pre-wrap;
+  display: inline-block;
+  max-width: 100%;
+}
+.rectangle-div,
+.sign-up-text1 {
+  height: 44px;
+  position: relative;
+  border-radius: var(--br-3xs);
+}
+.sign-up-text1 {
+  align-self: stretch;
+  background-color: var(--color-gainsboro-100);
+}
+.rectangle-div {
+  width: 274px;
+  background-color: var(--color-forestgreen-100);
+  border: 3px solid var(--color-lawngreen);
+  box-sizing: border-box;
+  display: none;
+}
+.sign-up2 {
+  position: relative;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-inter);
+  color: var(--color-lawngreen);
+  text-align: left;
+  z-index: 1;
+}
+.rectangle-container {
+  cursor: pointer;
+  border: 3px solid var(--color-lawngreen);
+  padding: var(--padding-10xs) 70px var(--padding-11xs) 86px;
+  background-color: var(--color-forestgreen-100);
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.rectangle-container:hover {
+  background-color: #57b359;
+  border: 3px solid #54bd00;
+  box-sizing: border-box;
+}
+.sign-in-group {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 53px 0;
+}
+.confirm-pass,
+.sign-up-group {
+  display: flex;
+  align-items: flex-start;
+}
+.sign-up-group {
+  width: 290px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-6xl) 0 0;
+  box-sizing: border-box;
+  min-width: 290px;
+}
+.confirm-pass {
+  flex-direction: row;
+  justify-content: center;
+  gap: 0 41px;
+  max-width: 100%;
+}
+.already-have-an {
+  width: 645px;
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 2;
+}
+.phone-number-text,
+.sign-up-confirmation-parent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.phone-number-text {
+  flex-direction: row;
+  justify-content: flex-end;
+  font-size: var(--font-size-21xl);
+  color: var(--color-lawngreen);
+}
+.sign-up-confirmation-parent {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-10xs);
+  box-sizing: border-box;
+  text-align: center;
+  color: var(--color-black);
+  font-family: var(--font-inknut-antiqua);
+}
+.frame-child1 {
+  height: 44px;
+  width: 274px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-forestgreen-100);
+  border: 3px solid var(--color-lawngreen);
+  box-sizing: border-box;
+  display: none;
+}
+.sign-in1 {
+  position: relative;
+  z-index: 1;
+}
+.group-div {
+  width: 274px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-forestgreen-100);
+  border: 3px solid var(--color-lawngreen);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-10xs) var(--padding-xl) var(--padding-11xs) 24px;
+  white-space: nowrap;
+}
+.password-frame,
+.sign-in-text {
+  width: 468px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+  font-size: var(--font-size-13xl);
+}
+.password-frame {
+  width: 868px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px 0;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-lawngreen);
+  font-family: var(--font-inter);
+}
+.password-frame-wrapper,
+.sign-up1 {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.password-frame-wrapper {
+  width: 1246px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  max-width: 100%;
+}
+.sign-up1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-darkgreen);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 64px;
+  gap: 37px 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .sign-up-page {
+    font-size: var(--font-size-21xl);
+  }
+  .confirm-password-,
+  .email-id-,
+  .first-name-,
+  .last-name-,
+  .password-,
+  .phoneno- {
+    font-size: var(--font-size-5xl);
+  }
+  .sign-up-group {
+    flex: 1;
+  }
+  .confirm-pass {
+    flex-wrap: wrap;
+    gap: 0 41px;
+  }
+  .already-have-an {
+    font-size: var(--font-size-13xl);
+  }
+  .sign-up1 {
+    gap: 37px 0;
+  }
+}
+@media screen and (max-width: 675px) {
+  .first-name-frame {
+    gap: 0 41px;
+  }
+  .password-parent,
+  .sign-up-button {
+    gap: 0 44px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .sign-up-page {
+    font-size: var(--font-size-11xl);
+  }
+  .confirm-password-,
+  .email-id-,
+  .first-name-,
+  .last-name-,
+  .password-,
+  .phoneno- {
+    font-size: var(--font-size-lg);
+  }
+  .rectangle-container {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .sign-in-group {
+    gap: 53px 0;
+  }
+  .already-have-an {
+    font-size: var(--font-size-5xl);
+  }
+}

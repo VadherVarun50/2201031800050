@@ -1,0 +1,214 @@
+.image-1-icon5 {
+  height: 110px;
+  width: 116px;
+  position: relative;
+  object-fit: cover;
+  z-index: 2;
+}
+.urban-ecology-text-child {
+  height: 82px;
+  width: 1330px;
+  position: relative;
+  background-color: var(--color-darkolivegreen);
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.urban-ecology-text-item {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-darkolivegreen);
+  z-index: 1;
+}
+.urban-ecology5 {
+  margin: 0;
+  width: 532px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  white-space: pre-wrap;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  flex-shrink: 0;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding-right: var(--padding-xl);
+  z-index: 2;
+}
+.urban-ecology-text,
+.urban-ecology-text-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.urban-ecology-text {
+  align-self: stretch;
+  background-color: var(--color-darkolivegreen);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-xl) 0;
+  position: relative;
+}
+.urban-ecology-text-wrapper {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-7xs);
+}
+.events-frame,
+.frame-header {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frame-header {
+  margin-top: -11px;
+  flex: 1;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-16xl);
+  color: var(--color-forestgreen-100);
+  font-family: var(--font-inter);
+}
+.events-frame {
+  align-self: stretch;
+  height: 99px;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.events-workshops {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.join-us-text {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-2xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.urban-biodiversity-workshop {
+  margin-bottom: 0;
+}
+.urban-biodiversity-workshop-j {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-13xl);
+}
+.blank-line10,
+.date-will-be {
+  margin: 0;
+}
+.green-infrastructure-seminar1 {
+  margin-bottom: 0;
+}
+.green-infrastructure-seminar {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-13xl);
+}
+.blank-line11,
+.date-will-be1 {
+  margin: 0;
+}
+.community-garden-volunteer {
+  margin-bottom: 0;
+}
+.community-garden-volunteer-day {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-13xl);
+}
+.blank-line12,
+.date-will-be2 {
+  margin: 0;
+}
+.nature-walk-and {
+  margin-bottom: 0;
+}
+.nature-walk-and-talk-take-a-s {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-13xl);
+}
+.date-will-be3 {
+  margin: 0;
+}
+.urban-biodiversity-workshop-container {
+  width: 1326px;
+  height: 635px;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+  color: var(--color-black);
+  flex-shrink: 0;
+}
+.events-workshops-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 53px 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-18xl);
+  color: var(--color-forestgreen-100);
+  font-family: var(--font-inter);
+}
+.events,
+.events-workshops-text-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.events-workshops-text-wrapper {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-xs) 0 0;
+  max-width: 100%;
+}
+.events {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-darkgreen);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 177px;
+  gap: 15px 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 600px) {
+  .events-workshops-text {
+    gap: 53px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .join-us-text {
+    max-width: calc(100% - 11px);
+  }
+  .urban-biodiversity-workshop-container {
+    font-size: 19px;
+  }
+}

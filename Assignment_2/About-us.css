@@ -1,0 +1,195 @@
+.image-1-icon2 {
+  height: 110px;
+  width: 116px;
+  position: relative;
+  object-fit: cover;
+  z-index: 2;
+}
+.placeholder,
+.urban-eco-text-child {
+  background-color: var(--color-darkolivegreen);
+}
+.urban-eco-text-child {
+  height: 82px;
+  width: 1330px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.placeholder {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+.urban-ecology2 {
+  width: 532px;
+  position: relative;
+  font-weight: 800;
+  white-space: pre-wrap;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  flex-shrink: 0;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding-right: var(--padding-xl);
+  z-index: 2;
+}
+.urban-eco-text {
+  align-self: stretch;
+  background-color: var(--color-darkolivegreen);
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0;
+  position: relative;
+}
+.about-us-inner,
+.image-1-group,
+.textbox-frame,
+.urban-eco-text {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.textbox-frame {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-7xs);
+}
+.about-us-inner,
+.image-1-group {
+  flex-direction: row;
+  padding: 0;
+}
+.image-1-group {
+  margin-top: -11px;
+  flex: 1;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-16xl);
+  color: var(--color-forestgreen-100);
+  font-family: var(--font-inter);
+}
+.about-us-inner {
+  align-self: stretch;
+  height: 99px;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.about-us1 {
+  position: relative;
+}
+.about-us-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xl) 0 0;
+}
+.at-urban-ecology,
+.blank-line,
+.blank-line1,
+.blank-line2,
+.join-us-as,
+.through-innovative-research,
+.welcome-to-urban {
+  margin: 0;
+}
+.welcome-to-urban-container {
+  width: 1375px;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.unsplashnmcc4oakpkc-icon {
+  height: 261px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.unsplashnmcc4oakpkc-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.about-us,
+.frame-main,
+.welcome-to-urban-ecology-and-e-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.welcome-to-urban-ecology-and-e-parent {
+  align-self: stretch;
+  align-items: flex-end;
+  padding: 0 0 0 var(--padding-12xs);
+  gap: 38px 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.about-us,
+.frame-main {
+  align-items: center;
+}
+.frame-main {
+  align-self: stretch;
+  padding: 0 var(--padding-lg);
+  gap: 34px 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-18xl);
+  color: var(--color-forestgreen-100);
+  font-family: var(--font-inter);
+}
+.about-us {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-darkgreen);
+  overflow: hidden;
+  padding: 0 0 26px;
+  gap: 17px 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .welcome-to-urban-container {
+    font-size: var(--font-size-5xl);
+  }
+  .frame-main {
+    gap: 34px 0;
+  }
+}
+@media screen and (max-width: 675px) {
+  .welcome-to-urban-ecology-and-e-parent {
+    gap: 38px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .about-us-wrapper {
+    max-width: calc(100% - 29px);
+  }
+  .welcome-to-urban-container {
+    font-size: var(--font-size-lg);
+  }
+}

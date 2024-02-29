@@ -1,0 +1,197 @@
+.image-1-icon6 {
+  height: 110px;
+  width: 116px;
+  position: relative;
+  object-fit: cover;
+  z-index: 2;
+}
+.rectangle-shape1,
+.text-frame-child {
+  background-color: var(--color-darkolivegreen);
+}
+.text-frame-child {
+  height: 82px;
+  width: 1330px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.rectangle-shape1 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+.urban-ecology6 {
+  width: 532px;
+  position: relative;
+  font-weight: 800;
+  white-space: pre-wrap;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  flex-shrink: 0;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding-right: var(--padding-xl);
+  z-index: 2;
+}
+.text-frame {
+  align-self: stretch;
+  background-color: var(--color-darkolivegreen);
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0;
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-16xl);
+  color: var(--color-forestgreen-100);
+  font-family: var(--font-inter);
+}
+.image-holder,
+.main-frame,
+.sub-frame,
+.text-frame {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.image-holder {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-7xs);
+}
+.main-frame,
+.sub-frame {
+  flex-direction: row;
+  padding: 0;
+}
+.sub-frame {
+  margin-top: -11px;
+  flex: 1;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+}
+.main-frame {
+  align-self: stretch;
+  height: 99px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+}
+.contact-us1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.contact-us-label {
+  width: 278px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.blank-line13,
+.thank-you-for-your-interest-in {
+  margin: 0;
+}
+.infourbanecologycom {
+  color: var(--color-mediumblue);
+}
+.blank-line14,
+.for-general-inquiries-or-to-le {
+  margin: 0;
+}
+.span {
+  font-family: var(--font-inter);
+}
+.ahmedabad-gujarat-2342345,
+.blank-line15,
+.blank-line16,
+.blank-line17,
+.lively-alteza-florence-buildi,
+.to-discuss-potential-collabora,
+.urban-ecology-and-environment,
+.we-value-your-feedback-and-inp {
+  margin: 0;
+}
+.infourbanecologycom1 {
+  color: var(--color-mediumblue);
+}
+.email-infourbanecologycom {
+  margin: 0;
+}
+.span1 {
+  font-family: var(--font-inter);
+}
+.phone-555-890-6517 {
+  margin: 0;
+}
+.thank-you-for-container {
+  width: 1248px;
+  height: 692px;
+  position: relative;
+  font-size: 26px;
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.contact-us,
+.contact-us-label-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.contact-us-label-parent {
+  padding: 0 var(--padding-xl);
+  gap: 36px 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-18xl);
+  color: var(--color-forestgreen-100);
+  font-family: var(--font-inter);
+}
+.contact-us {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-darkgreen);
+  overflow: hidden;
+  padding: 0 0 133px;
+  gap: 19px 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .contact-us1 {
+    font-size: var(--font-size-11xl);
+  }
+}
+@media screen and (max-width: 675px) {
+  .contact-us-label-parent {
+    gap: 36px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .contact-us1 {
+    font-size: var(--font-size-3xl);
+  }
+  .thank-you-for-container {
+    font-size: 21px;
+  }
+}
